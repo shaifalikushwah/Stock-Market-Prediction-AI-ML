@@ -76,6 +76,11 @@ The compiled executable will be saved at:
 
 ---
 
+## 🤝 Contributing
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for development workflow, branch strategy, and pull request guidance.
+
+---
+
 ## 🎥 Screen Recording & Video Submission Guide
 
 When recording your demonstration video:
