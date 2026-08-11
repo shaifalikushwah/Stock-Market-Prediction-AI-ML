@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.env
+*.venv
+pip-wheel-metadata/
+
+# PyInstaller
+dist/
+build/
+*.spec
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Files
+*.sqlite3
+*.db
+*.bak
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
