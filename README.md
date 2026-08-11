@@ -51,27 +51,26 @@ stock_screener_app/
 
 ## 🚀 Quick Start Guide
 
-### Option 1: Run Source Code
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Launch the application:
-   ```bash
-   python main.py
-   ```
-
-### Option 2: Run Unit Tests
-To verify all indicator math and screening rules:
+### 1. Install Dependencies
 ```bash
-python -m unittest discover tests
+pip install -r requirements.txt
 ```
 
-### Option 3: Compile Standalone Executable (.exe)
-To generate a standalone Windows `.exe` file without requiring Python:
+### 2. Run the App
+```bash
+python main.py
+```
+
+### 3. Run Tests
+```bash
+python -m pytest -q
+```
+
+### 4. Build the Executable
 ```bash
 python build_exe.py
 ```
+
 The compiled executable will be saved at:
 `dist/StockScreenerAI.exe`
 
